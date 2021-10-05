@@ -1,0 +1,95 @@
+:root {
+    --brand: #12a342 !important;
+    --common-box-shadow: 0 0 10px 5px rgba(222, 222, 222, 0.5) !important;
+    --darker-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
+    --white: #262626 !important;
+    --rgb-black: 30, 30, 30 !important;
+    --common-text: #f1f1f1 !important;
+    --disabled: #5c5c5c !important;
+    --light-gray: #aba999 !important;
+    --background: #101010 !important;
+    --primary: #15a507 !important;
+    --primary-dark: #0f5425 !important;
+    --primary-light: #032e0a !important;
+    --success: #23c512 !important;
+    --success-light: #0d3a08 !important;
+    --warning: #EA752E !important;
+    --warning-light: #9f3512 !important;
+    --info: #0d8700 !important;
+    --info-light: #0d3a08 !important;
+    --danger: #c51212 !important;
+    --danger-light: #3a0808 !important;
+}
+
+body {
+   background-color: var(--background) !important;
+   color: var(--common-text) !important;
+}
+
+/* Cuestionarios */
+.quiz-classroom-footer{
+    background-color: var(--white) !important;
+    color: var(--common-text) !important;
+}
+
+.question-header__title span span {
+    color: var(--common-text) !important;
+}
+
+.basic-block-content {
+    background-color: var(--white) !important;
+    color: var(--common-text) !important;
+}
+
+/* Random Lists */
+p, small, ul, li {
+    color: var(--common-text) !important;
+}
+
+
+/* Caja Negra */
+.Editor {
+    background-color: rgba(var(--rgb-black), 0.87) !important;
+    color: var(--common-text) !important;
+}
+
+.Editor .studioNavigation {
+    background-color: var(--primary-light) !important;
+    color: var(--common-text) !important;
+}
+
+.Editor .sidebar .sections>li .sectionName {
+    background-color: var(--primary-light) !important;
+    color: var(--common-text) !important;
+}
+
+.Editor .main .header .workingArea {
+    background-color: var(--primary-light) !important;
+    color: var(--common-text) !important;
+}
+
+.Editor .sidebar .header {
+    color: var(--common-text) !important;
+}
+
+.Editor .main .header ul li[active=true] {
+    background-color: rgba(var(--rgb-black), 0.87) !important;
+    color: var(--common-text) !important;
+} 
+
+/* La Terminal */
+.NodeConsole {
+    background-color: var(--background) !important;
+}
+
+.NodeConsole .header ul li {
+    background-color: var(--primary-light) !important;
+}
+
+.NodeConsole .whiteLog {
+    color: var(--common-text) !important;
+}
+
+.NodeConsole .grayLog {
+    color: var(--disabled) !important;
+}
